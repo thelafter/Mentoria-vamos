@@ -1,3 +1,5 @@
+
+
 describe('Validando textos da tela home', () => {
     beforeEach(() => {
       cy.visit('https://buger-eats.vercel.app/');
