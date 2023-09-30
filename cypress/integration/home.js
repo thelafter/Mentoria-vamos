@@ -28,7 +28,6 @@ describe('Validando textos da tela home', () => {
       cy.get('.button-success').click();
       cy.get('.swal2-popup')
         .should('be.visible')
-        luan
         .and('contain.text', 'Aí Sim...')
         .and('contain.text', 'Recebemos os seus dados. Fique de olho na sua caixa de email, pois e em breve retornamos o contato.');
     });
